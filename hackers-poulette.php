@@ -8,7 +8,7 @@
 <body>
 <?php
 
-// define the sanitize function outside of the conditional block
+// define SANITIZE FUNCTION outside of the conditional block
 function sanitize($data) {
     $data = trim($data);                // Remove leading and trailing whitespaces
     $data = stripslashes($data);        // Remove backslashes (\)
@@ -84,13 +84,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $descriptionError = "Only letters and white space allowed";
     }
   }
-  
-  print_r ($name);
-  print_r($firstname);
-  print_r($email);
-  print_r($gender);
-  print_r($country);
-  print_r($description);
 }
 
 
@@ -152,7 +145,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         
         <div class="coutryDiv">
             <label for="country">Country:</label>
-                <input id="country" type="text"  placeholder="country">
+                <input id="country" type="text"  placeholder="country" name="country">
                 <br>
                 <p class="error">* <?php echo $countryError;?></p>
         </div>    
@@ -181,7 +174,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </main>
 
 <footer>
-
+<h3>Your infos: </h3>
+<p>Name: <?php print_r($name); ?></p>
+<p>Firstname: <?php print_r ($firstname); ?> </p>
+<p>Email: <?php print_r($email);?></p>
+<p>Gender: <?php print_r($gender);?></p>
+<p>Country: <?php print_r($country); ?></p>
+<p>Description: <?php print_r($description);?></p>
 </footer>
 </body>
 </html>
