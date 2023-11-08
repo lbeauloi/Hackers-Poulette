@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Bellota+Text&display=swap");
+body {
+  text-align: center;
+  font-family: "Bellota Text", sans-serif;
+  background-color: #0d8187;
+  color: #FFF;
+  max-width: 800px;
+  margin: auto;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header img {
+  width: 50%;
+}
+header span {
+  color: #303030;
+  font-style: italic;
+}
+
+main h2 {
+  padding-bottom: 20px;
+}
+main form {
+  text-align: left;
+  border: 2px solid #303030;
+  background-color: #303030;
+  border-radius: 15px;
+  padding: 50px;
+  position: relative;
+}
+main form .nameDiv, main form .firstNameDiv {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  margin: 0;
+  background-color: transparent;
+}
+main form .sexeDiv {
+  background-color: transparent;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+main form .sexeDiv #gender {
+  width: 15px;
+}
+main form .emailDiv {
+  display: flex;
+  align-items: baseline;
+}
+main form .coutryDiv {
+  display: flex;
+  align-items: baseline;
+}
+main form .descriptionDiv {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: first baseline;
+  background-color: #303030;
+}
+main form .button {
+  position: absolute;
+  right: 20px;
+  bottom: 15px;
+  width: 75px;
+  border: 0;
+  padding: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #0d8187;
+  color: white;
+}
+main form input, main form fieldset, main form textarea, main form select {
+  width: 200px;
+  border-radius: 5px;
+  background-color: white;
+  margin: 5px;
+  border: 0;
+  padding: 5px;
+}
+main form label {
+  background-color: transparent;
+  padding: 5px;
+}
+main form .error {
+  color: red;
+}/*# sourceMappingURL=style.css.map */
