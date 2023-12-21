@@ -1,54 +1,18 @@
-# Hackers-Poulette
-## Type of challenge 
-consolidation, 2 days
-## Group 
-[Lucas](https://github.com/lbeauloi)
-## Learning Objectives
-At the end of this challenge you should have improved your:
 
-* semantical HTML
-* accessibility in HTML
-* Sass
-* Framework CSS or not (bootstrap, bulma, tailwind, ............. )
-* Progressive enhancement
-* PHP programming
-* Project planning
-* Mock-up creation
- 
-You should also be able to :
+# Hackers Poulette
+The goal is to create a fully-functioning online "contact support" form, in PHP.
+## Authors
 
-* display errors
+[@LucasBeauloi](https://github.com/lbeauloi) [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucas-beauloi/)
 
 
-### Missions
-"The company Hackers Poulette ™ sells Raspberry Pi accessory kits to build your own. They want to allow their users to contact their support team. Your mission is to create a fully-functioning online "contact support" form, in PHP. It must display a contact form and process the received answer (sanitize, validate, answer the user)."
 
-<!-- ### Goal
-![Alt text](https://github.com/becodeorg/CRL-KELLER-6/blob/main/1.TRAIL/2.The-Hill/2.PHP/AZ-Store/az_store.png) -->
-
-### Must have
-   
-* the project repository must include a low-fidelity mock-up
-* the form's html code must be semantically valid
-* the HTML must be accessible to blind people
-* in case of wrong input, the form should display a useful visual clue about the error
-* display the error message near the correct input field
-* the error message must be readable (helpful to users)
-* the form has to be sanitised and validated (server side)
-* if all required inputs are valid, the script should respond by email to a given address
-* implement a honeypot anti spam technique.
-
-
-<!-- ## Difficultés 
-* Tom
-  * bosser sur une pièce du "puzzle"
-  * essayer le bonus : petit bug
-
-* Elodie
-  * récup les données
-  * sanitize
-
-* Lucas
-  * comment ajouter du CSS dans un PHP file
-  * config localhost
-  * transposer la théorie des exercices du parcours PHP au travail de groupe -->
+## Project Link 
+[Hackers Poulette](https://lbeauloi.github.io/Hackers-Poulette/)
+## Badges
+[![AGPL License](https://camo.githubusercontent.com/9a7c8c4ee62739436a191706be9f786a813dc377ce778522da198cb94874dc22/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d48544d4c352d2532334534344432373f7374796c653d666c61742d737175617265266c6f676f3d68746d6c35266c6f676f436f6c6f723d666666666666)](http://www.gnu.org/licenses/agpl-3.0)
+[![AGPL License](https://camo.githubusercontent.com/19d98ab99fe0a1a5c00ef27920be3ada8548f2476877db0598960ac2a5f8788d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d435353332d2532333135373242363f7374796c653d666c61742d737175617265266c6f676f3d63737333)](http://www.gnu.org/licenses/agpl-3.0)
+[![AGPL License](https://camo.githubusercontent.com/a1309b252e82434062012a8073fa9fc1416a96289b7ca11555577b9fbe1cf03e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4a6176615363726970742d2532334637444631433f7374796c653d666c61742d737175617265266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d303030303030266c6162656c436f6c6f723d25323346374446314326636f6c6f723d253233464643453541)](http://www.gnu.org/licenses/agpl-3.0)
+[![AGPL License](https://camo.githubusercontent.com/c733735b3d10e64e1efd1eeeb5bc66af1af5d8628caa1ee64939d97d91d73ed7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d536173732d2532334343363639393f7374796c653d666c61742d737175617265266c6f676f3d73617373266c6f676f436f6c6f723d666666666666)](http://www.gnu.org/licenses/agpl-3.0)
+[![AGPL License](https://camo.githubusercontent.com/ddec73b08d03787cc6a0f8fb0f9aa848ebfc93c795d152268fbdf2e7ffa23b7a/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d5048502d2532334637444631433f7374796c653d666c61742d737175617265266c6f676f3d706870266c6f676f436f6c6f723d303030303030266c6162656c436f6c6f723d42304334444526636f6c6f723d423043344445
+)](http://www.gnu.org/licenses/agpl-3.0)
